@@ -1,0 +1,137 @@
+.box {
+  width: 140px;
+  height: 100px; }
+
+.box1 {
+  background-color: #d8f5e8; }
+
+.box2 {
+  background-color: #2accc3; }
+
+.box3 {
+  background-color: #ffbc17; }
+
+.box4 {
+  background-color: #ff623f; }
+
+.mint-light {
+  background-color: #ecfaf4; }
+
+.mint-dark {
+  background-color: #afebd0; }
+
+.teal-light {
+  background-color: #4edbd3; }
+
+.teal-dark {
+  background-color: #21a29b; }
+
+.gold-light {
+  background-color: #ffcb4a; }
+
+.gold-dark {
+  background-color: #e3a100; }
+
+.tomato-light {
+  background-color: #ff8c72; }
+
+.tomato-dark {
+  background-color: #ff380c; }
+
+.mint-mint-65 {
+  background-color: #d8f5e8; }
+
+.teal-mint-65 {
+  background-color: #67dad0; }
+
+.gold-mint-65 {
+  background-color: #f1d060; }
+
+.tomato-mint-65 {
+  background-color: #f1957a; }
+
+.mint-teal-65 {
+  background-color: #9be7db; }
+
+.teal-teal-65 {
+  background-color: #2accc3; }
+
+.gold-teal-65 {
+  background-color: #b4c253; }
+
+.tomato-teal-65 {
+  background-color: #b4876d; }
+
+.mint-gold-65 {
+  background-color: #e6e19f; }
+
+.teal-gold-65 {
+  background-color: #75c687; }
+
+.gold-gold-65 {
+  background-color: #ffbc17; }
+
+.tomato-gold-65 {
+  background-color: #ff8231; }
+
+.mint-tomato-65 {
+  background-color: #e6c2ad; }
+
+.teal-tomato-65 {
+  background-color: #75a795; }
+
+.gold-tomato-65 {
+  background-color: #ff9d25; }
+
+.tomato-tomato-65 {
+  background-color: #ff623f; }
+
+.open-sans {
+  font-family: "'Open Sans', sans-serif";
+  font-size: 30px; }
+
+.bree-serif {
+  font-family: "'Bree Serif', serif";
+  font-size: 30px; }
+
+.text-a {
+  color: #d8f5e8;
+  font-weight: bold; }
+
+.text-b {
+  color: #2accc3; }
+
+.text-c {
+  color: #ffbc17;
+  font-style: italic; }
+
+.text-d {
+  color: #ff623f;
+  font-style: italic; }
+
+.numbers {
+  color: #ebecef; }
+
+.heading-samples {
+  font-family: Montserrat;
+  font-weight: bold; }
+
+.heading-samples h1 {
+  font-family: "'Bree Serif', serif";
+  font-weight: bold;
+  color: #2accc3; }
+
+.heading-samples h2 {
+  text-transform: uppercase; }
+
+.heading-samples h3 {
+  text-transform: uppercase;
+  color: #ebecef; }
+
+.heading-samples h4 {
+  color: #75c687; }
+
+.heading-samples h5 {
+  text-transform: lowercase; }
+
+/*# sourceMappingURL=style.css.map */

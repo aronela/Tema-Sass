@@ -1,0 +1,202 @@
+@import "variables";
+
+@mixin my-size($dimension) {
+  width: $dimension + 40px;
+  height: $dimension;
+}
+
+.box {
+  $square: 100px;
+  @include my-size($square);
+}
+
+.box1 {
+  background-color: $base-color-mint;
+}
+
+.box2 {
+  background-color: $base-color-teal;
+}
+
+.box3 {
+  background-color: $base-color-gold;
+}
+
+.box4 {
+  background-color: $base-color-tomato;
+}
+
+// ----------------------Tints-and-Tones--------------------------- //
+.mint-light {
+  background-color: lighten($base-color-mint, 5%);
+}
+
+.mint-dark {
+  background-color: darken($base-color-mint, 10%);
+}
+
+.teal-light {
+  background-color: lighten($base-color-teal, 10%);
+}
+
+.teal-dark {
+  background-color: darken($base-color-teal, 10%);
+}
+
+.gold-light {
+  background-color: lighten($base-color-gold, 10%);
+}
+
+.gold-dark {
+  background-color: darken($base-color-gold, 10%);
+}
+
+.tomato-light {
+  background-color: lighten($base-color-tomato, 10%);
+}
+
+.tomato-dark {
+  background-color: darken($base-color-tomato, 10%);
+}
+
+
+
+// ----------------------Generated-Colors--------------------------- //
+
+.mint-mint-65 {
+  background-color: mix($base-color-mint, $base-color-mint, 65%);
+}
+
+.teal-mint-65 {
+  background-color: mix($base-color-teal, $base-color-mint, 65%);
+}
+
+.gold-mint-65 {
+  background-color: mix($base-color-gold, $base-color-mint, 65%);
+}
+
+.tomato-mint-65 {
+  background-color: mix($base-color-tomato, $base-color-mint, 65%);
+}
+
+.mint-teal-65 {
+  background-color: mix($base-color-mint, $base-color-teal, 65%);
+}
+
+.teal-teal-65 {
+  background-color: mix($base-color-teal, $base-color-teal, 65%);
+}
+
+.gold-teal-65 {
+  background-color: mix($base-color-gold, $base-color-teal, 65%);
+}
+
+.tomato-teal-65 {
+  background-color: mix($base-color-tomato, $base-color-teal, 65%);
+}
+
+
+.mint-gold-65 {
+  background-color: mix($base-color-mint, $base-color-gold, 65%);
+}
+
+.teal-gold-65 {
+  background-color: mix($base-color-teal, $base-color-gold, 65%);
+}
+
+.gold-gold-65 {
+  background-color: mix($base-color-gold, $base-color-gold, 65%);
+}
+
+.tomato-gold-65 {
+  background-color: mix($base-color-tomato, $base-color-gold, 65%);
+}
+
+
+.mint-tomato-65 {
+  background-color: mix($base-color-mint, $base-color-tomato, 65%);
+}
+
+.teal-tomato-65 {
+  background-color: mix($base-color-teal, $base-color-tomato, 65%);
+}
+
+.gold-tomato-65 {
+  background-color: mix($base-color-gold, $base-color-tomato, 65%);
+}
+
+.tomato-tomato-65 {
+  background-color: mix($base-color-tomato, $base-color-tomato, 65%);
+}
+
+// ----------------------Tipography--------------------------- //
+.open-sans {
+  font-family: $font-family-2;
+  font-size: $font-size-normal;
+}
+
+.bree-serif {
+  font-family: $font-family-3;
+  font-size: $font-size-normal;
+}
+
+.text-a {
+  color: $base-color-mint;
+  font-weight: $font-weight-bold;
+}
+
+.text-b {
+  color: $base-color-teal;
+}
+
+.text-c {
+  color: $base-color-gold;
+  font-style: $font-style-italic;
+}
+
+.text-d {
+  color: $base-color-tomato;
+  font-style: $font-style-italic;
+}
+
+.numbers {
+  color: $base-color-grey;
+}
+
+.heading-samples {
+  font-family: $font-family-1;
+  font-weight: $font-weight-bold;
+}
+
+.heading-samples h1 {
+  font-family: $font-family-3;
+  font-weight: $font-weight-bold;
+  color: $base-color-teal;
+}
+
+.heading-samples h2 {
+  text-transform: $text-uppercase;
+}
+
+.heading-samples h3 {
+  text-transform: $text-uppercase;
+  color: $base-color-grey;
+}
+
+.heading-samples h4 {
+  color: mix($base-color-teal, $base-color-gold, 65%);
+}
+
+.heading-samples h5 {
+  text-transform: $text-lowercase;
+}
+
+
+
+
+
+
+
+
+
+
